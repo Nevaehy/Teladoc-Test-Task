@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TeladocTestTask</string>
+
+    <string name="loading">Loading...</string>
+    <string name="common_error_message">Something went wrong</string>
+    <string name="try_again">Try Again</string>
+    <string name="poems">Poems</string>
+    <string name="itunes">ITunes</string>
+    <string name="album_hint">The Beatles</string>
+</resources>

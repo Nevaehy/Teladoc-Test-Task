@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_nav_graph.xml"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.teladoctesttask.ui.features.main.MenuFragment"
+        android:label="menuFragment"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_poemsFragment"
+            app:destination="@id/poemsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_iTunesFragment"
+            app:destination="@id/iTunesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/poemsFragment"
+        android:name="com.example.teladoctesttask.ui.features.poems.PoemsFragment"
+        android:label="poemsFragment"
+        tools:layout="@layout/fragment_poems">
+    </fragment>
+
+    <fragment
+        android:id="@+id/iTunesFragment"
+        android:name="com.example.teladoctesttask.ui.features.itunes.ITunesFragment"
+        android:label="menuFragment"
+        tools:layout="@layout/fragment_itunes">
+    </fragment>
+
+</navigation>
